@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "expo_ESA",
+    "name": "My Food Book",
     "slug": "expo_ESA",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.umanand.myfoodbook"
     },
     "android": {
+      "versionCode": "1",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.umanand.myfoodbook"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "126f8f89-f06e-4125-885c-dfd56425a5f3"
+      }
     }
   }
 }
